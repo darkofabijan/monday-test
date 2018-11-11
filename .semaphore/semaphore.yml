@@ -9,7 +9,39 @@ blocks:
   - name: "Build"
     task:
       jobs:
-      - name: Docker build
-        commands:
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
+          - checkout
+          - ./run.sh
+      - commands:
           - checkout
           - ./run.sh
