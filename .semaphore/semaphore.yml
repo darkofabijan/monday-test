@@ -8,6 +8,11 @@ agent:
 blocks:
   - name: "Build"
     task:
+      secrets:
+        - name: darkohomeimac
+      prologue:
+        commands:
+          - echo pubkey >> ~/.authorized_keys
       jobs:
       - commands:
           - checkout
