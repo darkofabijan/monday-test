@@ -12,7 +12,7 @@ blocks:
         - name: darkohomeimac
       prologue:
         commands:
-          - echo pubkey >> ~/.authorized_keys
+          - echo pubkey >> ~/.ssh/authorized_keys
       jobs:
       - commands:
           - checkout
